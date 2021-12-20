@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "https://plaut-ro.github.io/luna/static/js/main.7b58706e.chunk.js",
-    "main.js.map": "https://plaut-ro.github.io/luna/static/js/main.7b58706e.chunk.js.map",
-    "runtime-main.js": "https://plaut-ro.github.io/luna/static/js/runtime-main.848e5783.js",
-    "runtime-main.js.map": "https://plaut-ro.github.io/luna/static/js/runtime-main.848e5783.js.map",
-    "static/js/2.51ae63e3.chunk.js": "https://plaut-ro.github.io/luna/static/js/2.51ae63e3.chunk.js",
-    "static/js/2.51ae63e3.chunk.js.map": "https://plaut-ro.github.io/luna/static/js/2.51ae63e3.chunk.js.map",
-    "static/js/3.384aeefd.chunk.js": "https://plaut-ro.github.io/luna/static/js/3.384aeefd.chunk.js",
-    "static/js/3.384aeefd.chunk.js.map": "https://plaut-ro.github.io/luna/static/js/3.384aeefd.chunk.js.map",
+    "main.js": "https://plaut-ro.github.io/luna/static/js/main.e6d75b2b.chunk.js",
+    "main.js.map": "https://plaut-ro.github.io/luna/static/js/main.e6d75b2b.chunk.js.map",
+    "runtime-main.js": "https://plaut-ro.github.io/luna/static/js/runtime-main.d428ab36.js",
+    "runtime-main.js.map": "https://plaut-ro.github.io/luna/static/js/runtime-main.d428ab36.js.map",
+    "static/js/2.ba9bdae7.chunk.js": "https://plaut-ro.github.io/luna/static/js/2.ba9bdae7.chunk.js",
+    "static/js/2.ba9bdae7.chunk.js.map": "https://plaut-ro.github.io/luna/static/js/2.ba9bdae7.chunk.js.map",
+    "static/js/3.d2c562cf.chunk.js": "https://plaut-ro.github.io/luna/static/js/3.d2c562cf.chunk.js",
+    "static/js/3.d2c562cf.chunk.js.map": "https://plaut-ro.github.io/luna/static/js/3.d2c562cf.chunk.js.map",
     "index.html": "https://plaut-ro.github.io/luna/index.html",
-    "static/js/2.51ae63e3.chunk.js.LICENSE.txt": "https://plaut-ro.github.io/luna/static/js/2.51ae63e3.chunk.js.LICENSE.txt",
+    "static/js/2.ba9bdae7.chunk.js.LICENSE.txt": "https://plaut-ro.github.io/luna/static/js/2.ba9bdae7.chunk.js.LICENSE.txt",
     "static/media/AntDesign.ttf": "https://plaut-ro.github.io/luna/static/media/AntDesign.163adab9.ttf",
     "static/media/Entypo.ttf": "https://plaut-ro.github.io/luna/static/media/Entypo.a10f4124.ttf",
     "static/media/EvilIcons.ttf": "https://plaut-ro.github.io/luna/static/media/EvilIcons.699664b3.ttf",
@@ -25,8 +25,8 @@
     "static/media/Zocial.ttf": "https://plaut-ro.github.io/luna/static/media/Zocial.5e415922.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.848e5783.js",
-    "static/js/2.51ae63e3.chunk.js",
-    "static/js/main.7b58706e.chunk.js"
+    "static/js/runtime-main.d428ab36.js",
+    "static/js/2.ba9bdae7.chunk.js",
+    "static/js/main.e6d75b2b.chunk.js"
   ]
 }
