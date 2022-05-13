@@ -12,6 +12,7 @@ import appJson from './app.json';
 import React, {ReactNode} from 'react';
 import {
   Button,
+  Dimensions,
   ScrollView,
   StyleSheet,
   Text,
@@ -31,11 +32,12 @@ import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
-import {useLinkTo} from '@react-navigation/native';
+import {useLinkTo, useNavigation} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 
 // *****************************************************************************************************
 // This pasted directly in from this file upstream
@@ -110,6 +112,75 @@ const App = () => {
 
 // *****************************************************************************************************
 // The rest of the file is to set up a react-navigation and react-native-vector-icons demonstration:
+const Stack = createStackNavigator();
+const StackNavigator = () => {
+  const linkTo = useLinkTo();
+  const navigation = useNavigation();
+
+  // Dark mode theming items
+  const isDarkMode = useColorScheme() === 'dark';
+  const primaryColor = isDarkMode ? Colors.darker : Colors.lighter;
+  const accentColor = isDarkMode ? Colors.lighter : Colors.darker;
+  const backgroundStyle = {backgroundColor: primaryColor, flex: 1};
+
+  const NotFound = () => {
+    return (
+      <View style={[backgroundStyle, styles.detailsContainer]}>
+        <Text
+          style={[
+            styles.sectionTitle,
+            {
+              color: accentColor,
+            },
+          ]}>
+          Oh no! This page does not exist.
+        </Text>
+        <View style={styles.spacer} />
+        <Text
+          style={[
+            styles.sectionTitle,
+            {
+              color: accentColor,
+            },
+          ]}>
+          On Android and web, the back button will take you back. On iOS you may
+          swipe to go back.
+        </Text>
+        {navigation.canGoBack() && (
+          <>
+            <View style={styles.spacer} />
+            <Button
+              title="navigation.goBack()"
+              onPress={() => {
+                navigation.goBack();
+              }}
+            />
+          </>
+        )}
+        <View style={styles.spacer} />
+        <Button title="Go to '/'" onPress={() => linkTo('/')} />
+      </View>
+    );
+  };
+
+  return (
+    <Stack.Navigator
+      initialRouteName="App"
+      screenOptions={{
+        // TODO - investigate why setting width/height is needed on web but not mobile.
+        // Without it, the card gets height of content in largest tab and overflows with no scroll?
+        cardStyle: {
+          width: Dimensions.get('window').width,
+          height: Dimensions.get('window').height,
+        },
+        headerShown: false,
+      }}>
+      <Stack.Screen component={TopTabNavigator} name="App" />
+      <Stack.Screen component={NotFound} name="NotFound" />
+    </Stack.Navigator>
+  );
+};
+
 const Tab = createMaterialTopTabNavigator();
 const TopTabNavigator = () => {
   // Used for status bar layout in react-navigation
@@ -132,7 +203,7 @@ const TopTabNavigator = () => {
         style={[
           styles.sectionTitle,
           {
-            color: isDarkMode ? Colors.white : Colors.black,
+            color: accentColor,
           },
         ]}>
         If you see a rocket, react-native-vector-icons is working!
@@ -145,6 +216,11 @@ const TopTabNavigator = () => {
     return (
       <View style={[backgroundStyle, styles.detailsContainer]}>
         <Button title="Link to Details" onPress={() => linkTo('/details')} />
+        <View style={styles.spacer} />
+        <Button
+          title="Link to a non-existent route"
+          onPress={() => linkTo('/nonexistent/route')}
+        />
       </View>
     );
   };
@@ -175,9 +251,18 @@ const TabbedApp = () => {
           prefixes: ['criszz77.github.io/luna', 'localhost'],
           config: {
             screens: {
-              Details: 'details',
-              Linking: 'linking',
-              Home: '*', // Fall back to if no routes match
+              NotFound: '*', // Match any unknown route with our NotFound screen
+              App: {
+                path: '', // omit '/App' in the browser URL bar
+                // @ts-ignore - TODO screens in nested nav do not seem to be typed correctly upstream?
+                screens: {
+                  Home: {
+                    path: '', // omit '/Home' in the browser URL bar, this is our '/' URL (vs '/App/Home')
+                  },
+                  Details: 'details', // because of '' omissions above, this is just '/details', not '/App/details'
+                  Linking: 'linking', // shows up at '/linking'
+                },
+              },
             },
           },
         }}
@@ -189,7 +274,7 @@ const TabbedApp = () => {
                 : ' '
             }`,
         }}>
-        <TopTabNavigator />
+        <StackNavigator />
       </NavigationContainer>
     </SafeAreaProvider>
   );
@@ -201,6 +286,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
     alignItems: 'center',
+    paddingHorizontal: 24,
   },
   sectionContainer: {
     marginTop: 32,
@@ -217,6 +303,9 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+  },
+  spacer: {
+    height: 20,
   },
 });
 
