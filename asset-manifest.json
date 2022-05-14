@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "https://criszz77.github.io/luna/static/js/main.129562f0.chunk.js",
-    "main.js.map": "https://criszz77.github.io/luna/static/js/main.129562f0.chunk.js.map",
-    "runtime-main.js": "https://criszz77.github.io/luna/static/js/runtime-main.f549e2af.js",
-    "runtime-main.js.map": "https://criszz77.github.io/luna/static/js/runtime-main.f549e2af.js.map",
-    "static/js/2.025710ca.chunk.js": "https://criszz77.github.io/luna/static/js/2.025710ca.chunk.js",
-    "static/js/2.025710ca.chunk.js.map": "https://criszz77.github.io/luna/static/js/2.025710ca.chunk.js.map",
-    "static/js/3.2b4494eb.chunk.js": "https://criszz77.github.io/luna/static/js/3.2b4494eb.chunk.js",
-    "static/js/3.2b4494eb.chunk.js.map": "https://criszz77.github.io/luna/static/js/3.2b4494eb.chunk.js.map",
+    "main.js": "https://criszz77.github.io/luna/static/js/main.52874861.chunk.js",
+    "main.js.map": "https://criszz77.github.io/luna/static/js/main.52874861.chunk.js.map",
+    "runtime-main.js": "https://criszz77.github.io/luna/static/js/runtime-main.721f4bb3.js",
+    "runtime-main.js.map": "https://criszz77.github.io/luna/static/js/runtime-main.721f4bb3.js.map",
+    "static/js/2.e0acdff7.chunk.js": "https://criszz77.github.io/luna/static/js/2.e0acdff7.chunk.js",
+    "static/js/2.e0acdff7.chunk.js.map": "https://criszz77.github.io/luna/static/js/2.e0acdff7.chunk.js.map",
+    "static/js/3.f42a6502.chunk.js": "https://criszz77.github.io/luna/static/js/3.f42a6502.chunk.js",
+    "static/js/3.f42a6502.chunk.js.map": "https://criszz77.github.io/luna/static/js/3.f42a6502.chunk.js.map",
     "index.html": "https://criszz77.github.io/luna/index.html",
-    "static/js/2.025710ca.chunk.js.LICENSE.txt": "https://criszz77.github.io/luna/static/js/2.025710ca.chunk.js.LICENSE.txt",
+    "static/js/2.e0acdff7.chunk.js.LICENSE.txt": "https://criszz77.github.io/luna/static/js/2.e0acdff7.chunk.js.LICENSE.txt",
     "static/media/AntDesign.ttf": "https://criszz77.github.io/luna/static/media/AntDesign.163adab9.ttf",
     "static/media/Entypo.ttf": "https://criszz77.github.io/luna/static/media/Entypo.fc616934.ttf",
     "static/media/EvilIcons.ttf": "https://criszz77.github.io/luna/static/media/EvilIcons.699664b3.ttf",
@@ -25,8 +25,8 @@
     "static/media/Zocial.ttf": "https://criszz77.github.io/luna/static/media/Zocial.07fea2ac.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f549e2af.js",
-    "static/js/2.025710ca.chunk.js",
-    "static/js/main.129562f0.chunk.js"
+    "static/js/runtime-main.721f4bb3.js",
+    "static/js/2.e0acdff7.chunk.js",
+    "static/js/main.52874861.chunk.js"
   ]
 }
