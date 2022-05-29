@@ -1,32 +1,26 @@
 {
   "files": {
-    "main.js": "https://criszz77.github.io/luna/static/js/main.175e111f.chunk.js",
-    "main.js.map": "https://criszz77.github.io/luna/static/js/main.175e111f.chunk.js.map",
-    "runtime-main.js": "https://criszz77.github.io/luna/static/js/runtime-main.91021029.js",
-    "runtime-main.js.map": "https://criszz77.github.io/luna/static/js/runtime-main.91021029.js.map",
-    "static/js/2.4d7f4fc9.chunk.js": "https://criszz77.github.io/luna/static/js/2.4d7f4fc9.chunk.js",
-    "static/js/2.4d7f4fc9.chunk.js.map": "https://criszz77.github.io/luna/static/js/2.4d7f4fc9.chunk.js.map",
-    "static/js/3.6a233298.chunk.js": "https://criszz77.github.io/luna/static/js/3.6a233298.chunk.js",
-    "static/js/3.6a233298.chunk.js.map": "https://criszz77.github.io/luna/static/js/3.6a233298.chunk.js.map",
+    "main.js": "https://criszz77.github.io/luna/static/js/main.98d2ccd3.js",
+    "static/js/787.e22991a8.chunk.js": "https://criszz77.github.io/luna/static/js/787.e22991a8.chunk.js",
+    "static/media/MaterialCommunityIcons.ttf": "https://criszz77.github.io/luna/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
+    "static/media/Fontisto.ttf": "https://criszz77.github.io/luna/static/media/Fontisto.c0edd68811e0237502fe.ttf",
+    "static/media/Ionicons.ttf": "https://criszz77.github.io/luna/static/media/Ionicons.3517aeaa34b2f8cd8eef.ttf",
+    "static/media/MaterialIcons.ttf": "https://criszz77.github.io/luna/static/media/MaterialIcons.120b4c7bbd155bd0a04d.ttf",
+    "static/media/FontAwesome.ttf": "https://criszz77.github.io/luna/static/media/FontAwesome.1e59d2330b4c6deb84b3.ttf",
+    "static/media/AntDesign.ttf": "https://criszz77.github.io/luna/static/media/AntDesign.163adab9dbd7cb1ed12a.ttf",
+    "static/media/Entypo.ttf": "https://criszz77.github.io/luna/static/media/Entypo.fc6169344c041cffcdae.ttf",
+    "static/media/Foundation.ttf": "https://criszz77.github.io/luna/static/media/Foundation.c0cbb004854f9c746f89.ttf",
+    "static/media/Feather.ttf": "https://criszz77.github.io/luna/static/media/Feather.0f5d9cede2e831f3fc80.ttf",
+    "static/media/SimpleLineIcons.ttf": "https://criszz77.github.io/luna/static/media/SimpleLineIcons.3ec13a24af3fdda11107.ttf",
+    "static/media/Octicons.ttf": "https://criszz77.github.io/luna/static/media/Octicons.6b742a230954dc640ba2.ttf",
+    "static/media/Zocial.ttf": "https://criszz77.github.io/luna/static/media/Zocial.07fea2ac49bcc67d9a6b.ttf",
+    "static/media/logo.png": "https://criszz77.github.io/luna/static/media/logo.ad20a0cdc21ec7c19c7e.png",
+    "static/media/EvilIcons.ttf": "https://criszz77.github.io/luna/static/media/EvilIcons.699664b33ac2837d5bee.ttf",
     "index.html": "https://criszz77.github.io/luna/index.html",
-    "static/js/2.4d7f4fc9.chunk.js.LICENSE.txt": "https://criszz77.github.io/luna/static/js/2.4d7f4fc9.chunk.js.LICENSE.txt",
-    "static/media/AntDesign.ttf": "https://criszz77.github.io/luna/static/media/AntDesign.163adab9.ttf",
-    "static/media/Entypo.ttf": "https://criszz77.github.io/luna/static/media/Entypo.fc616934.ttf",
-    "static/media/EvilIcons.ttf": "https://criszz77.github.io/luna/static/media/EvilIcons.699664b3.ttf",
-    "static/media/Feather.ttf": "https://criszz77.github.io/luna/static/media/Feather.0f5d9ced.ttf",
-    "static/media/FontAwesome.ttf": "https://criszz77.github.io/luna/static/media/FontAwesome.1e59d233.ttf",
-    "static/media/Fontisto.ttf": "https://criszz77.github.io/luna/static/media/Fontisto.c0edd688.ttf",
-    "static/media/Foundation.ttf": "https://criszz77.github.io/luna/static/media/Foundation.c0cbb004.ttf",
-    "static/media/Ionicons.ttf": "https://criszz77.github.io/luna/static/media/Ionicons.3517aeaa.ttf",
-    "static/media/MaterialCommunityIcons.ttf": "https://criszz77.github.io/luna/static/media/MaterialCommunityIcons.5d42b4e6.ttf",
-    "static/media/MaterialIcons.ttf": "https://criszz77.github.io/luna/static/media/MaterialIcons.120b4c7b.ttf",
-    "static/media/Octicons.ttf": "https://criszz77.github.io/luna/static/media/Octicons.6b742a23.ttf",
-    "static/media/SimpleLineIcons.ttf": "https://criszz77.github.io/luna/static/media/SimpleLineIcons.3ec13a24.ttf",
-    "static/media/Zocial.ttf": "https://criszz77.github.io/luna/static/media/Zocial.07fea2ac.ttf"
+    "main.98d2ccd3.js.map": "https://criszz77.github.io/luna/static/js/main.98d2ccd3.js.map",
+    "787.e22991a8.chunk.js.map": "https://criszz77.github.io/luna/static/js/787.e22991a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.91021029.js",
-    "static/js/2.4d7f4fc9.chunk.js",
-    "static/js/main.175e111f.chunk.js"
+    "static/js/main.98d2ccd3.js"
   ]
 }
