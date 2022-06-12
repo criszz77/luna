@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "https://criszz77.github.io/luna/static/js/main.f8cb3732.js",
+    "main.js": "https://criszz77.github.io/luna/static/js/main.9e06f6f7.js",
     "static/js/787.e22991a8.chunk.js": "https://criszz77.github.io/luna/static/js/787.e22991a8.chunk.js",
     "static/media/MaterialCommunityIcons.ttf": "https://criszz77.github.io/luna/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
     "static/media/Fontisto.ttf": "https://criszz77.github.io/luna/static/media/Fontisto.c0edd68811e0237502fe.ttf",
@@ -17,10 +17,10 @@
     "static/media/logo.png": "https://criszz77.github.io/luna/static/media/logo.ad20a0cdc21ec7c19c7e.png",
     "static/media/EvilIcons.ttf": "https://criszz77.github.io/luna/static/media/EvilIcons.699664b33ac2837d5bee.ttf",
     "index.html": "https://criszz77.github.io/luna/index.html",
-    "main.f8cb3732.js.map": "https://criszz77.github.io/luna/static/js/main.f8cb3732.js.map",
+    "main.9e06f6f7.js.map": "https://criszz77.github.io/luna/static/js/main.9e06f6f7.js.map",
     "787.e22991a8.chunk.js.map": "https://criszz77.github.io/luna/static/js/787.e22991a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f8cb3732.js"
+    "static/js/main.9e06f6f7.js"
   ]
 }
